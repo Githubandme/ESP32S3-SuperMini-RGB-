@@ -1,0 +1,66 @@
+# Arduino
+*.hex
+*.elf
+*.bin
+*.map
+
+# Build artifacts
+build/
+*.o
+*.d
+*.su
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+env/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# Secrets (don't commit credentials)
+secrets.h
+config_local.h
+
+# Documentation build
+docs/_build/
+site/
+
+# Node modules (if using web tools)
+node_modules/
+npm-debug.log*
+
+# Test files
+test_output/
+coverage/
