@@ -26,6 +26,8 @@ This project provides a complete solution for controlling RGB LEDs on the ESP32S
 3. **Open browser**: Navigate to `http://192.168.4.1`
 4. **Control your lights!** 🎉
 
+> ⚠️ **Security Note**: Change the default WiFi password immediately! See [SECURITY.md](SECURITY.md) for important security guidelines.
+
 ## 📁 Project Structure
 
 ```
@@ -36,7 +38,14 @@ ESP32S3_RGB_Control/
 
 ## 📖 Documentation
 
-For detailed setup instructions, customization options, and troubleshooting, see the [complete documentation](ESP32S3_RGB_Control/README.md).
+- 🚀 [Quick Start Guide](QUICKSTART.md) - Get started in 5 minutes
+- 📘 [Main Documentation](ESP32S3_RGB_Control/README.md) - Complete usage guide
+- 🔧 [Hardware Guide](HARDWARE.md) - Hardware setup and wiring
+- 📐 [Schematics](SCHEMATICS.md) - Detailed wiring diagrams
+- ❓ [FAQ](FAQ.md) - Frequently asked questions
+- 🔒 [Security Guidelines](SECURITY.md) - Important security information
+- 🤝 [Contributing](CONTRIBUTING.md) - How to contribute
+- 📊 [Project Overview](PROJECT_OVERVIEW.md) - Complete project summary
 
 ## 🛠️ Requirements
 
